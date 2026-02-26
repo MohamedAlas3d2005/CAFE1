@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سنجافيه | Sinjafeh Café</title>
+    <link rel="icon" href="./logo.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-inner">
+            <img src="./logo.png" alt="سنجافيه" class="preloader-logo">
+            <div class="preloader-bar">
+                <div class="preloader-bar-fill"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <img src="./logo.png" alt="سنجافيه">
+                <span>سنجافيه</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#hero" class="active">الرئيسية</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#menu">القائمة</a></li>
+                <li><a href="#gallery">الأجواء</a></li>
+                <li><a href="#location">الموقع</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <div class="hero-bg">
+            <div class="hero-slide active" style="background-image: url('3.png')"></div>
+            <div class="hero-slide" style="background-image: url('4.png')"></div>
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-logo-wrapper animate-on-scroll">
+                <img src="./logo.png" alt="سنجافيه" class="hero-logo">
+            </div>
+            <h1 class="hero-title animate-on-scroll">
+                <span class="hero-title-line">مرحباً بكم في</span>
+                <span class="hero-title-main">سنجافيه</span>
+            </h1>
+            <p class="hero-subtitle animate-on-scroll">حيث تلتقي النكهات الأصيلة بالأجواء العصرية</p>
+            <div class="hero-divider animate-on-scroll">
+                <span class="divider-line"></span>
+                <i class="fas fa-mug-hot"></i>
+                <span class="divider-line"></span>
+            </div>
+            <div class="hero-cta animate-on-scroll">
+                <a href="#menu" class="btn btn-primary">استكشف القائمة</a>
+                <a href="#contact" class="btn btn-outline">تواصل معنا</a>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>اكتشف المزيد</span>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-bg-pattern"></div>
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">تعرف علينا</span>
+                <h2 class="section-title">من نحن</h2>
+                <div class="section-divider">
+                    <span></span><i class="fas fa-coffee"></i><span></span>
+                </div>
+            </div>
+            <div class="about-grid">
+                <div class="about-image animate-on-scroll">
+                    <div class="about-image-wrapper">
+                        <img src="./cafe-photo.png" alt="سنجافيه">
+                        <div class="about-image-overlay">
+                            <div class="about-image-frame"></div>
+                        </div>
+                    </div>
+                    <div class="about-experience-badge">
+                        <span class="badge-number">تجربة</span>
+                        <span class="badge-text">فريدة</span>
+                    </div>
+                </div>
+                <div class="about-content animate-on-scroll">
+                    <h3 class="about-heading">قصة <span class="text-accent">سنجافيه</span></h3>
+                    <p class="about-text">
+                        في قلب محطة سما على طريق الرياض - القصيم، يقع سنجافيه كواحة استراحة مميزة للمسافرين ومحبي القهوة. نقدم لكم تجربة فريدة تجمع بين أصالة القهوة العربية وإبداع المشروبات العصرية.
+                    </p>
+                    <p class="about-text">
+                        نؤمن بأن كل فنجان قهوة يروي قصة، ونسعى لأن تكون قصتكم معنا مليئة بالدفء والنكهات المميزة. فريقنا المتخصص يحرص على تقديم أجود أنواع القهوة والمشروبات مع لمسة من الضيافة السعودية الأصيلة.
+                    </p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-mug-hot"></i>
+                            </div>
+                            <div class="feature-info">
+                                <h4>قهوة مختصة</h4>
+                                <p>أجود حبوب البن المحمصة بعناية</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-cookie-bite"></i>
+                            </div>
+                            <div class="feature-info">
+                                <h4>حلويات طازجة</h4>
+                                <p>معجنات وحلويات محضرة يومياً</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-couch"></i>
+                            </div>
+                            <div class="feature-info">
+                                <h4>أجواء مريحة</h4>
+                                <p>تصميم عصري يوفر الراحة والخصوصية</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-road"></i>
+                            </div>
+                            <div class="feature-info">
+                                <h4>موقع استراتيجي</h4>
+                                <p>على طريق الرياض - القصيم مباشرة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Counter -->
+    <section id="stats">
+        <div class="stats-bg" style="background-image: url('3.png')"></div>
+        <div class="stats-overlay"></div>
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-icon"><i class="fas fa-coffee"></i></div>
+                    <div class="stat-number" data-target="5000">0</div>
+                    <div class="stat-label">فنجان قهوة يومياً</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-icon"><i class="fas fa-users"></i></div>
+                    <div class="stat-number" data-target="1200">0</div>
+                    <div class="stat-label">عميل سعيد</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-icon"><i class="fas fa-utensils"></i></div>
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">صنف في القائمة</div>
+                </div>
+                <div class="stat-item animate-on-scroll">
+                    <div class="stat-icon"><i class="fas fa-star"></i></div>
+                    <div class="stat-number" data-target="98">0</div>
+                    <div class="stat-label">% رضا العملاء</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">اكتشف نكهاتنا</span>
+                <h2 class="section-title">القائمة</h2>
+                <div class="section-divider">
+                    <span></span><i class="fas fa-mug-hot"></i><span></span>
+                </div>
+            </div>
+
+            <!-- Menu Filter -->
+            <div class="menu-filter animate-on-scroll">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="hot">مشروبات ساخنة</button>
+                <button class="filter-btn" data-filter="cold">مشروبات باردة</button>
+                <button class="filter-btn" data-filter="food">المأكولات</button>
+                <button class="filter-btn" data-filter="dessert">الحلويات</button>
+            </div>
+
+            <!-- Menu Grid -->
+            <div class="menu-grid">
+                <!-- Hot Drinks -->
+                <div class="menu-card animate-on-scroll" data-category="hot">
+                    <div class="menu-card-image">
+                        <img src="1.png" alt="إسبريسو">
+                        <div class="menu-card-badge">مميز</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>إسبريسو</h3>
+                            <span class="menu-price">15 ر.س</span>
+                        </div>
+                        <p>شوت إسبريسو مركز من أجود حبوب البن المحمصة</p>
+                    </div>
+                </div>
+
+                <div class="menu-card animate-on-scroll" data-category="hot">
+                    <div class="menu-card-image">
+                        <img src="1.png" alt="كابتشينو">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>كابتشينو</h3>
+                            <span class="menu-price">20 ر.س</span>
+                        </div>
+                        <p>إسبريسو مع حليب مبخر ورغوة كريمية ناعمة</p>
+                    </div>
+                </div>
+
+                <div class="menu-card animate-on-scroll" data-category="hot">
+                    <div class="menu-card-image">
+                        <img src="1.png" alt="لاتيه">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>لاتيه</h3>
+                            <span class="menu-price">22 ر.س</span>
+                        </div>
+                        <p>قهوة ناعمة مع حليب مبخر وفن اللاتيه المميز</p>
+                    </div>
+                </div>
+
+                <div class="menu-card animate-on-scroll" data-category="hot">
+                    <div class="menu-card-image">
+                        <img src="1.png" alt="قهوة عربية">
+                        <div class="menu-card-badge">تراثي</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>قهوة عربية</h3>
+                            <span class="menu-price">12 ر.س</span>
+                        </div>
+                        <p>قهوة عربية أصيلة مع الهيل والزعفران</p>
+                    </div>
+                </div>
+
+                <!-- Cold Drinks -->
+                <div class="menu-card animate-on-scroll" data-category="cold">
+                    <div class="menu-card-image">
+                        <img src="1.png" alt="آيس لاتيه">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>آيس لاتيه</h3>
+                            <span class="menu-price">25 ر.س</span>
+                        </div>
+                        <p>لاتيه مثلج منعش مع حليب بارد وثلج</p>
+                    </div>
+                </div>
+
+                <div class="menu-card animate-on-scroll" data-category="cold">
+                    <div class="menu-card-image">
+                        <img src="1.png" alt="موكا مثلج">
+                        <div class="menu-card-badge">الأكثر طلباً</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>موكا مثلج</h3>
+                            <span class="menu-price">28 ر.س</span>
+                        </div>
+                        <p>مزيج رائع من الشوكولاتة والقهوة المثلجة</p>
+                    </div>
+                </div>
+
+                <div class="menu-card animate-on-scroll" data-category="cold">
+                    <div class="menu-card-image">
+                        <img src="1.png" alt="سموذي فواكه">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>سموذي فواكه</h3>
+                            <span class="menu-price">24 ر.س</span>
+                        </div>
+                        <p>مزيج طازج من الفواكه الموسمية المنعشة</p>
+                    </div>
+                </div>
+
+                <!-- Food -->
+                <div class="menu-card animate-on-scroll" data-category="food">
+                    <div class="menu-card-image">
+                        <img src="3.png" alt="كلوب ساندويتش">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>كلوب ساندويتش</h3>
+                            <span class="menu-price">32 ر.س</span>
+                        </div>
+                        <p>ساندويتش كلوب مع دجاج مشوي وخضروات طازجة</p>
+                    </div>
+                </div>
+
+                <div class="menu-card animate-on-scroll" data-category="food">
+                    <div class="menu-card-image">
+                        <img src="3.png" alt="كرواسون">
+                        <div class="menu-card-badge">طازج يومياً</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>كرواسون</h3>
+                            <span class="menu-price">18 ر.س</span>
+                        </div>
+                        <p>كرواسون فرنسي طازج محشو بالجبن أو الشوكولاتة</p>
+                    </div>
+                </div>
+
+                <!-- Desserts -->
+                <div class="menu-card animate-on-scroll" data-category="dessert">
+                    <div class="menu-card-image">
+                        <img src="3.png" alt="تشيز كيك">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>تشيز كيك</h3>
+                            <span class="menu-price">26 ر.س</span>
+                        </div>
+                        <p>تشيز كيك كريمي مع صوص التوت الطازج</p>
+                    </div>
+                </div>
+
+                <div class="menu-card animate-on-scroll" data-category="dessert">
+                    <div class="menu-card-image">
+                        <img src="3.png" alt="كنافة">
+                        <div class="menu-card-badge">تراثي</div>
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>كنافة</h3>
+                            <span class="menu-price">22 ر.س</span>
+                        </div>
+                        <p>كنافة ساخنة بالجبن مع القطر العربي</p>
+                    </div>
+                </div>
+
+                <div class="menu-card animate-on-scroll" data-category="dessert">
+                    <div class="menu-card-image">
+                        <img src="3.png" alt="بان كيك">
+                    </div>
+                    <div class="menu-card-content">
+                        <div class="menu-card-header">
+                            <h3>بان كيك</h3>
+                            <span class="menu-price">28 ر.س</span>
+                        </div>
+                        <p>بان كيك هش مع العسل والفواكه الطازجة</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">لحظات مميزة</span>
+                <h2 class="section-title">أجواء سنجافيه</h2>
+                <div class="section-divider">
+                    <span></span><i class="fas fa-camera"></i><span></span>
+                </div>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item gallery-item-large animate-on-scroll" data-aos="fade-up">
+                    <img src="2.png" alt="أجواء الكافيه">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>الأجواء الداخلية</span>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="1.png" alt="المشروبات">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>مشروباتنا المميزة</span>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="3.png" alt="الحلويات">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>حلوياتنا الشهية</span>
+                    </div>
+                </div>
+                <div class="gallery-item animate-on-scroll">
+                    <img src="./cafe-photo.png" alt="سنجافيه">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>سنجافيه</span>
+                    </div>
+                </div>
+                <div class="gallery-item gallery-item-wide animate-on-scroll">
+                    <img src="4.png" alt="الأجواء المسائية">
+                    <div class="gallery-overlay">
+                        <i class="fas fa-expand"></i>
+                        <span>الأجواء المسائية</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <button class="lightbox-close" aria-label="Close"><i class="fas fa-times"></i></button>
+        <button class="lightbox-prev" aria-label="Previous"><i class="fas fa-chevron-right"></i></button>
+        <button class="lightbox-next" aria-label="Next"><i class="fas fa-chevron-left"></i></button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImage">
+        </div>
+    </div>
+
+    <!-- Location Section -->
+    <section id="location">
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">زورونا</span>
+                <h2 class="section-title">موقعنا</h2>
+                <div class="section-divider">
+                    <span></span><i class="fas fa-map-marker-alt"></i><span></span>
+                </div>
+            </div>
+            <div class="location-grid">
+                <div class="location-map animate-on-scroll">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d115000!2d45.5!3d25.9!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDU0JzAwLjAiTiA0NcKwMzAnMDAuMCJF!5e0!3m2!1sar!2ssa!4v1700000000000!5m2!1sar!2ssa"
+                        width="100%" height="450" style="border:0; border-radius: 16px;" allowfullscreen=""
+                        loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+                <div class="location-info animate-on-scroll">
+                    <div class="info-card">
+                        <div class="info-card-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-card-content">
+                            <h3>العنوان</h3>
+                            <p>محطة سما - الغاط</p>
+                            <p>طريق الرياض - القصيم</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-card-content">
+                            <h3>ساعات العمل</h3>
+                            <p>يومياً من 6:00 صباحاً</p>
+                            <p>حتى 12:00 منتصف الليل</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-card-content">
+                            <h3>البريد الإلكتروني</h3>
+                            <p><a href="/cdn-cgi/l/email-protection#b7e6c2d584f7dfd8c3dad6dedb99d4d8da"><span class="__cf_email__" data-cfemail="e2b39780d1a28a8d968f838b8ecc818d8f">[email&#160;protected]</span></a></p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-card-icon">
+                            <i class="fas fa-share-alt"></i>
+                        </div>
+                        <div class="info-card-content">
+                            <h3>تابعنا</h3>
+                            <div class="social-links">
+                                <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                                <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                                <a href="#" aria-label="Snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+                                <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-bg-pattern"></div>
+        <div class="container">
+            <div class="section-header animate-on-scroll">
+                <span class="section-tag">نسعد بتواصلكم</span>
+                <h2 class="section-title">تواصل معنا</h2>
+                <div class="section-divider">
+                    <span></span><i class="fas fa-paper-plane"></i><span></span>
+                </div>
+            </div>
+            <div class="contact-wrapper animate-on-scroll">
+                <div class="contact-info-side">
+                    <h3>نحب نسمع منكم</h3>
+                    <p>سواء كان لديكم استفسار، اقتراح، أو ترغبون بحجز خاص، لا تترددوا بالتواصل معنا.</p>
+                    <div class="contact-details">
+                        <div class="contact-detail">
+                            <i class="fas fa-envelope"></i>
+                            <span><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="7a2b0f18493a12150e171b131654191517">[email&#160;protected]</a></span>
+                        </div>
+                        <div class="contact-detail">
+                            <i class="fas fa-map-pin"></i>
+                            <span>محطة سما - الغاط، طريق الرياض - القصيم</span>
+                        </div>
+                    </div>
+                    <div class="contact-decoration">
+                        <img src="./logo.png" alt="سنجافيه" class="contact-logo">
+                    </div>
+                </div>
+                <form id="contactForm" class="contact-form" action="contact.php" method="POST">
+                    <div class="form-group">
+                        <div class="form-field">
+                            <label for="name">الاسم الكريم</label>
+                            <input type="text" id="name" name="name" required placeholder="أدخل اسمك">
+                            <span class="form-field-focus"></span>
+                        </div>
+                        <div class="form-field">
+                            <label for="email">البريد الإلكتروني</label>
+                            <input type="email" id="email" name="email" required placeholder="example@email.com" dir="ltr">
+                            <span class="form-field-focus"></span>
+                        </div>
+                    </div>
+                    <div class="form-field">
+                        <label for="phone">رقم الجوال</label>
+                        <input type="tel" id="phone" name="phone" placeholder="05XXXXXXXX" dir="ltr">
+                        <span class="form-field-focus"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="subject">الموضوع</label>
+                        <select id="subject" name="subject" required>
+                            <option value="" disabled selected>اختر الموضوع</option>
+                            <option value="inquiry">استفسار عام</option>
+                            <option value="reservation">حجز خاص</option>
+                            <option value="feedback">ملاحظات واقتراحات</option>
+                            <option value="complaint">شكوى</option>
+                            <option value="other">أخرى</option>
+                        </select>
+                        <span class="form-field-focus"></span>
+                    </div>
+                    <div class="form-field">
+                        <label for="message">الرسالة</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="اكتب رسالتك هنا..."></textarea>
+                        <span class="form-field-focus"></span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-submit">
+                        <span>إرسال الرسالة</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                    <div id="formMessage" class="form-message"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-wave">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,60 C360,120 720,0 1080,60 C1260,90 1380,60 1440,60 L1440,120 L0,120 Z" fill="currentColor"></path>
+            </svg>
+        </div>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="./logo.png" alt="سنجافيه" class="footer-logo">
+                    <h3>سنجافيه</h3>
+                    <p>حيث تلتقي النكهات الأصيلة بالأجواء العصرية. نقدم لكم تجربة قهوة فريدة على طريق الرياض - القصيم.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="#hero">الرئيسية</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#menu">القائمة</a></li>
+                        <li><a href="#gallery">الأجواء</a></li>
+                        <li><a href="#contact">تواصل معنا</a></li>
+                    </ul>
+                </div>
+                <div class="footer-hours">
+                    <h4>ساعات العمل</h4>
+                    <ul>
+                        <li><span>السبت - الخميس</span><span>6:00 ص - 12:00 م</span></li>
+                        <li><span>الجمعة</span><span>2:00 م - 12:00 م</span></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>تابعنا</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a>
+                        <a href="#" aria-label="Snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+                        <a href="#" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 سنجافيه. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./script.js"></script>
+</body>
+
+</html>
